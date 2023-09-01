@@ -1,0 +1,202 @@
+div.main{
+  text-align: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  transition: transform .7s ease-in-out;
+  margin-left:10px;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+}
+
+.img2{
+  width: 400px;
+  height: 400px;
+  margin-left:10%;
+}
+
+body{
+  background-image: url("seamless space_0.png");
+}
+
+.p1{
+  font-family: monaco,Consolas,Lucida Console,monospace;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1{
+  font-family: monaco,Consolas,Lucida Console,monospace;
+  color: white;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+
+
+div.github_links{
+  font-family: monaco,Consolas,Lucida Console,monospace;
+  color: white;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+#github{
+  border: 5px solid white;
+  background: white;
+  border-radius: 10px;
+}
+
+#github:hover{
+  background:#CCCCCC;
+  border: 5px solid #CCCCCC;
+}
+
+#email{
+  border: 5px solid white;
+  background: white;
+  border-radius: 10px;
+}
+
+#email:hover{
+  background:#CCCCCC;
+  border: 5px solid #CCCCCC;
+}
+
+#resume{
+  border: 5px solid white;
+  background: white;
+  border-radius: 10px;
+}
+
+#resume:hover{
+  background:#CCCCCC;
+  border: 5px solid #CCCCCC;
+}
+
+nav{
+  display:block;
+  background: white;
+  width: 100%;
+  height: 10%;
+}
+
+div.topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  background-color: #FFF;
+}
+
+.topnav button {
+  float: left;
+  color: black;
+  font-family: monaco,Consolas,Lucida Console,monospace; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav button:hover {
+  background-color: #CCCCCC;
+  color: black;
+}
+
+.topnav button.active {
+  background-color: #e3ca09;
+  color: white;
+}
+
+div.projects{
+  margin-left: 250px;
+  width: 75%;
+}
+
+.project_types{
+  width:200px;
+  height:200px;
+}
+
+#python{
+  padding:50px;
+}
+
+#arduino{
+  padding:50px;
+}
+
+#C{
+  padding:50px;
+}
+
+#Java{
+  padding:50px;
+}
+
+#JavaScript{
+  padding:50px;
+}
+
+#HTML{
+  padding:50px;
+}
+
+div.aboutme{
+  width: 50%;
+  background-color: white;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+div.closing{
+  /* width: 50%; */
+  background-color: white;
+  /* margin-left:auto;
+  margin-right:auto; */
+  text-align: center;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding:20px;
+}
+
+.aboutme{
+  color:black;
+}
+
+#me{
+  border-radius:50%;
+  border: 10 px solid black;
+  size: 200%;
+}
+
+/* .main{
+  
+  width: 1000px;
+  height: 500px;
+} */
